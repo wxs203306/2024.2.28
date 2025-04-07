@@ -270,8 +270,7 @@
 //int main()
 //{
 //	int input = 0;
-//	printf("玩APEX\n");
-//	printf("双排吗(1/0)?");
+//	printf("玩APEX\n双排吗(1/0)?\n");
 //	scanf("%d", &input);
 //	if(input == 1)//为真就执行
 //	{
