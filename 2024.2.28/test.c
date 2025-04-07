@@ -232,7 +232,7 @@
 //	printf("abcd"); //只有字符串可以简化成这种形式
 //	printf("%s\n", "abcd");//指定类型--字符串--进行打印
 //
-//	printf("abc\\0def");//--abc\0def
+//	printf("abc\\0def");//--abc\0def--"\"被转义,破坏了终止打印符"\0"的实现
 //
 //	printf("c:\test\tese.c");//--c:      est     ese.c
 //	printf("c:\\test\\tese.c");//--c:\\test\\tese.c
