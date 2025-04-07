@@ -235,7 +235,7 @@
 //	printf("abc\\0def");//--abc\0def--"\"被转义,破坏了终止打印符"\0"的实现
 //
 //	printf("c:\test\tese.c");//--c:      est     ese.c
-//	printf("c:\\test\\tese.c");//--c:\\test\\tese.c
+//	printf("c:\\test\\tese.c");//--c:\test\tese.c
 //	//打印路径时使用--\\--
 //
 //	printf("\a");//警告字符--触发电脑的蜂鸣器
